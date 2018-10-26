@@ -1,0 +1,114 @@
+[
+    {
+        "pd1_til_status": "HIGH POSITIVE",
+        "tmb_score": "TMB_LOW",
+        "tmb_range_eq_greater_than": 0,
+        "tmb_range_less_than": 10,
+        "specimenCount": 967
+    },
+    {
+        "pd1_til_status": "HIGH POSITIVE",
+        "tmb_score": "TMB_MID",
+        "tmb_range_eq_greater_than": 10,
+        "tmb_range_less_than": 20,
+        "specimenCount": 118
+    },
+    {
+        "pd1_til_status": "HIGH POSITIVE",
+        "tmb_score": "TMB_HIGH",
+        "tmb_range_eq_greater_than": 20,
+        "tmb_range_less_than": 30,
+        "specimenCount": 69
+    },
+    {
+        "pd1_til_status": "HIGH POSITIVE",
+        "tmb_score": "TMB_HIGH_HIGH",
+        "tmb_range_eq_greater_than": 30,
+        "tmb_range_less_than": 9999,
+        "specimenCount": 1948
+    },
+    {
+        "pd1_til_status": "LOW POSITIVE",
+        "tmb_score": "TMB_LOW",
+        "tmb_range_eq_greater_than": 0,
+        "tmb_range_less_than": 10,
+        "specimenCount": 14869
+    },
+    {
+        "pd1_til_status": "LOW POSITIVE",
+        "tmb_score": "TMB_MID",
+        "tmb_range_eq_greater_than": 10,
+        "tmb_range_less_than": 20,
+        "specimenCount": 1168
+    },
+    {
+        "pd1_til_status": "LOW POSITIVE",
+        "tmb_score": "TMB_HIGH",
+        "tmb_range_eq_greater_than": 20,
+        "tmb_range_less_than": 30,
+        "specimenCount": 267
+    },
+    {
+        "pd1_til_status": "LOW POSITIVE",
+        "tmb_score": "TMB_HIGH_HIGH",
+        "tmb_range_eq_greater_than": 30,
+        "tmb_range_less_than": 9999,
+        "specimenCount": 9249
+    },
+    {
+        "pd1_til_status": "MODERATE POSITIVE",
+        "tmb_score": "TMB_LOW",
+        "tmb_range_eq_greater_than": 0,
+        "tmb_range_less_than": 10,
+        "specimenCount": 1199
+    },
+    {
+        "pd1_til_status": "MODERATE POSITIVE",
+        "tmb_score": "TMB_MID",
+        "tmb_range_eq_greater_than": 0,
+        "tmb_range_less_than": 10,
+        "specimenCount": 104
+    },
+    {
+        "pd1_til_status": "MODERATE POSITIVE",
+        "tmb_score": "TMB_HIGH",
+        "tmb_range_eq_greater_than": 20,
+        "tmb_range_less_than": 30,
+        "specimenCount": 536
+    },
+    {
+        "pd1_til_status": "MODERATE POSITIVE",
+        "tmb_score": "TMB_HIGH_HIGH",
+        "tmb_range_eq_greater_than": 30,
+        "tmb_range_less_than": 9999,
+        "specimenCount": 601
+    },
+    {
+        "pd1_til_status": "NEGATIVE",
+        "tmb_score": "TMB_LOW",
+        "tmb_range_eq_greater_than": 0,
+        "tmb_range_less_than": 10,
+        "specimenCount": 9798
+    },
+    {
+        "pd1_til_status": "NEGATIVE",
+        "tmb_score": "TMB_MID",
+        "tmb_range_eq_greater_than": 0,
+        "tmb_range_less_than": 10,
+        "specimenCount": 287
+    },
+    {
+        "pd1_til_status": "NEGATIVE",
+        "tmb_score": "TMB_HIGH",
+        "tmb_range_eq_greater_than": 20,
+        "tmb_range_less_than": 30,
+        "specimenCount": 78
+    },
+    {
+        "pd1_til_status": "NEGATIVE",
+        "tmb_score": "TMB_HIGH_HIGH",
+        "tmb_range_eq_greater_than": 30,
+        "tmb_range_less_than": 9999,
+        "specimenCount": 6436
+    }
+]

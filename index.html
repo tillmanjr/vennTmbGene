@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Small Cell Lung Cancers: Top 5 Genes and Tumor Mutation Burden</title>
+  <script src="https://d3js.org/d3.v4.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="web\assets\css\insightsVenn.css">
+  <style>
+        body {
+            font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+            font-size: 14px;
+        }
+        .padLeft10 {
+            padding-left: 10px;
+        } 
+    </style>
+    
+</head>
+<body>
+    <script src="web/assets/js/venn.js"></script>
+    <script src="src/utils/models/modelData.js"></script>
+    <div style="float:left;padding:20px">
+        <table id="vennDisplayOptionsTable">
+            <tr>
+                <td colspan=2>
+                    <b>Genes</b>
+                </td>
+            </tr>
+            <tr>
+                    <td class='padLeft10'>KRAS</td>
+                <td>
+                    <input class="input-mini venn_area" id="include_gene_0" type="checkbox"  checked>
+                </td>
+            </tr>
+            <tr>
+                    <td class='padLeft10'>BRAF</td>
+                <td>
+                    <input class="input-mini venn_area" id="include_gene_1" type="checkbox"  checked>
+                </td>
+            </tr>
+            <tr>
+                    <td class='padLeft10'>PTEN</td>
+                <td>
+                    <input class="input-mini venn_area default_unchecked" id="include_gene_2" type="checkbox" checked>
+                </td>
+            </tr>
+            <tr>
+                    <td class='padLeft10'>STK11</td>
+                <td>
+                    <input class="input-mini venn_area default_unchecked" id="include_gene_3" type="checkbox" checked>
+                </td>
+            </tr>
+            <tr>
+                <td class='padLeft10'>EGFR</td>
+                <td>
+                    <input class="input-mini venn_area default_unchecked" id="include_gene_4" type="checkbox" checked>
+                </td>
+            </tr>
+            <tr>
+                <td colspan=2>
+                    <b>TMB Score</b>
+                </td>
+            </tr>
+            <tr>
+                <td class='padLeft10'>High</td>
+                <td><input class="input-mini venn_area " id="include_tmb_2" type="checkbox" checked></td>
+            </tr>
+            <tr>
+                <td class='padLeft10'>Mid</td>
+                <td>
+                    <input class="input-mini venn_area default_unchecked" id="include_tmb_1" type="checkbox" checked>
+                </td>
+            </tr>
+            <tr>
+                <td class='padLeft10'>Low</td>
+                <td>
+                    <input class="input-mini venn_area default_unchecked" id="include_tmb_0" type="checkbox" checked>
+                </td>
+            </tr>
+        </table>
+
+        <div class="venndropdown no-errors" id='renderIssuesWidget'>
+            <button class="venndropbtn">Looks good</button>
+            <div class="venndropdown-content">
+                <a href="#">Link 1</a>
+                <a href="#">Link 2</a>
+                <a href="#">Link 3</a>
+            </div>
+        </div>
+    </div>
+    <div id='diagram'>
+        <link href="http://fonts.googleapis.com/css?family=Shadows+Into+Light" rel="stylesheet" type="text/css">
+    </div>
+
+    <div style="clear: both;"></div>
+
+    <script src='src\utils\venn\vennDataFromModel.js'></script>
+    <script src='src\utils\venn\uiDataFromVennData.js'></script>
+    <script src='src\utils\venn\vennDisplayUtils.js'></script>
+    <script src='src\utils\venn\insightsVenn.js'></script>
+       <script>
+           createVennDiagram()
+       </script> 
+    
+    </body>
+</html>
+

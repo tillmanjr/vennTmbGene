@@ -1,0 +1,23 @@
+{
+  "name": "ventmbgene",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "browser-sync start -s -f index.html src --no-ui --no-notify"
+  },
+  "keywords": [],
+  "author": "Tillman Dickson, Jr.",
+  "devDependencies": {
+    "browser-sync": "^2.24.6"
+  },
+  "dependencies": {
+    "d3": "^5.5.0",
+    "d3-fetch": "^1.1.0",
+    "d3v4": "^4.2.2",
+    "fs": "0.0.1-security",
+    "hashtable": "^2.0.2",
+    "mathjs": "^5.2.2",
+    "readline": "^1.3.0"
+  }
+}
